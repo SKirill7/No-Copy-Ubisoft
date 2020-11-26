@@ -195,7 +195,7 @@ header .nav-menu a {
 .wrapper-news .block_news_bottom {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   line-height: 30px;
 }
 .wrapper-news .block_news_bottom .news-wrapper {
@@ -245,4 +245,11 @@ footer .official_info {
   text-align: center;
   color: white;
   margin-top: 80px;
+}
+
+@media screen and (max-width: 1460px) {
+  .container {
+    width: 1460px;
+    margin: 0 auto;
+  }
 }
