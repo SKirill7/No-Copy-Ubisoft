@@ -44,6 +44,11 @@ header .nav-menu a {
   font-weight: 700;
   margin: 0 30px;
 }
+header .burger_icon .burger {
+  width: 40px;
+  height: 40px;
+  display: none;
+}
 
 .moregames_title .title h2 {
   width: 100%;
@@ -174,9 +179,6 @@ header .nav-menu a {
   align-items: flex-start;
   line-height: 30px;
 }
-.wrapper-news .block_news_top .news-wrapper {
-  margin-left: 200px;
-}
 .wrapper-news .block_news_top .news-wrapper h3 {
   font-size: 30px;
 }
@@ -197,9 +199,7 @@ header .nav-menu a {
   justify-content: space-between;
   align-items: center;
   line-height: 30px;
-}
-.wrapper-news .block_news_bottom .news-wrapper {
-  margin-left: 200px;
+  padding: 50px 0;
 }
 .wrapper-news .block_news_bottom .news-wrapper h3 {
   font-size: 30px;
@@ -214,7 +214,6 @@ header .nav-menu a {
   display: block;
   width: 500px;
   height: 250px;
-  background-color: black;
 }
 
 footer {
@@ -247,9 +246,112 @@ footer .official_info {
   margin-top: 80px;
 }
 
-@media screen and (max-width: 1460px) {
+@media screen and (max-width: 1360px) {
   .container {
-    width: 1460px;
+    width: 1360px;
     margin: 0 auto;
+  }
+  .container .promo_ads {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .wrapper-news .block_news_top .news_content .news_img {
+    width: 500px;
+    height: 250px;
+  }
+
+  .wrapper-news .block_news_bottom .news_content .news_img {
+    width: 500px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .logoimg {
+    width: 80px;
+    height: 50px;
+    margin-left: 50px;
+  }
+
+  .burger {
+    width: 40px;
+    height: 40px;
+    display: none;
+  }
+
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .container .promo_ads {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .container .order_game {
+    margin-right: 250px;
+  }
+
+  .wrapper-news .block_news_top .news-wrapper {
+    margin-right: 250px;
+  }
+  .wrapper-news .block_news_top .news_content .news_img {
+    width: 300px;
+    height: 150px;
+  }
+
+  .wrapper-news .block_news_bottom .news_content .news_img {
+    width: 300px;
+    height: 150px;
+    margin-right: 250px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .logoimg {
+    width: 80px;
+    height: 50px;
+    margin-left: 50px;
+  }
+
+  .nav-menu .menu {
+    display: none;
+  }
+
+  .burger {
+    width: 40px;
+    height: 40px;
+    display: block;
+  }
+
+  .container {
+    width: 767px;
+    margin: 0 auto;
+  }
+  .container .promo_ads {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .container .promo_ads .content h2 {
+    font-size: 40px;
+  }
+  .container .promo_ads .content a {
+    font-size: 40px;
+  }
+
+  .game_block .content_game .game_link .game_img {
+    width: 100px;
+    height: 150px;
+  }
+
+  .wrapper-news .block_news_top .news_content .news_img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .wrapper-news .block_news_bottom .news_content .news_img {
+    width: 150px;
+    height: 100px;
   }
 }
