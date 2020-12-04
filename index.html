@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/style_hamburger.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
@@ -24,8 +25,22 @@
           <a href="#"><span>Puzzle</span></a>
           <a href="#"><span>User profile</span></a>
         </nav>
-       
       </div>
+      <div class="wrapper">
+        <input type="checkbox" id="check-menu">
+        <label for="check-menu"></label>
+        <div class="burger-line first"></div>
+         <div class="burger-line second"></div>
+         <div class="burger-line third"></div>
+        <div class="burger-line fourth"></div>
+        <nav class="main-menu">
+          <a href="#"><span>Logo</span></a>
+          <a href="#"><span>Arcade</span></a>
+          <a href="#"><span>Shooter</span></a>
+          <a href="#"><span>Puzzle</span></a>
+          <a href="#"><span>User profile</span></a>
+        </nav> <!--nav-menu adaptive-ver.-->
+    </div>
       <!-- <div class="burger_icon">
         <img src="./img/icon/hamburger.svg" alt="menu" class="burger">
       </div> -->
@@ -35,7 +50,7 @@
       </div>
     </header>
     <div class="moregames_title">
-      <div class="title"><h2>More games</h2></div>
+      <div class="title"><h2>Больше игр</h2></div>
     </div>
     <main>
       <section>
@@ -51,7 +66,7 @@
       <section>
         <div class="container">
           <div class="order_game">
-            <h3>Order visible</h3>
+            <h3>Остальные игры</h3>
             <div class="select_filter">
               <select name="game" id="">
                 <option value="">All platforms</option>
