@@ -26,12 +26,13 @@ header .logoimg {
   width: 80px;
   height: 50px;
 }
-header .search {
+header .login_link {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-}
-header .search .search_icon {
-  width: 20px;
-  height: 20px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 header .login_link .login_icon {
   width: 30px;
@@ -40,9 +41,16 @@ header .login_link .login_icon {
   align-items: center;
 }
 header .nav-menu a {
-  font-size: 16cpx;
+  font-size: 16px;
   font-weight: 700;
-  margin: 0 30px;
+  text-transform: uppercase;
+  margin: 0 60px;
+}
+header .nav-menu a:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  padding: 20px 20px;
 }
 header .burger_icon .burger {
   width: 40px;
@@ -66,12 +74,12 @@ header .burger_icon .burger {
 .container .promo_ads {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: flex-start;
   width: 1460px;
   height: 350px;
-  background: url('../img/qboGCTGViX8.jpg') 0 -250px/cover no-repeat;
   margin-top: 50px;
   color: white;
+  background: url('../img/qboGCTGViX8.jpg')0 -200px/cover no-repeat;
 }
 .container .promo_ads .content {
   font-size: 52px;
@@ -125,6 +133,7 @@ header .burger_icon .burger {
 .game_block .content_game .platform_icon {
   width: 18px;
   height: 18px;
+  margin-bottom: 50px;
 }
 
 .button_wrapper {
@@ -237,6 +246,10 @@ footer .footer_nav-menu .footer_menu {
 footer .footer_nav-menu .footer_menu a {
   margin: 0 30px;
 }
+footer .footer_nav-menu .footer_menu a:hover {
+  text-decoration: underline;
+}
+
 footer .official_info {
   display: flex;
   justify-content: center;
@@ -246,112 +259,33 @@ footer .official_info {
   margin-top: 80px;
 }
 
-@media screen and (max-width: 1360px) {
+
+@media screen and ( max-width: 1460px) {
+ 
   .container {
-    width: 1360px;
+    width: 1280px;
     margin: 0 auto;
+  }
+  header {
+    width: 1280px;
   }
   .container .promo_ads {
-    width: 1000px;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 75px auto;
+    width: 1024px;
   }
-
-  .wrapper-news .block_news_top .news_content .news_img {
-    width: 500px;
-    height: 250px;
+  .container .promo_ads .content {
+    font-size: 35px;
   }
-
-  .wrapper-news .block_news_bottom .news_content .news_img {
-    width: 500px;
-    height: 250px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .logoimg {
-    width: 80px;
-    height: 50px;
-    margin-left: 50px;
-  }
-
-  .burger {
-    width: 40px;
-    height: 40px;
-    display: none;
-  }
-
-  .container {
-    width: 1200px;
+  .order_game {
+    width: 1280px;
     margin: 0 auto;
   }
-  .container .promo_ads {
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 50px;
+  .game_block {
+    display: flex;
+    justify-content: space-evenly;
   }
-  .container .order_game {
-    margin-right: 250px;
-  }
-
-  .wrapper-news .block_news_top .news-wrapper {
-    margin-right: 250px;
-  }
-  .wrapper-news .block_news_top .news_content .news_img {
-    width: 300px;
-    height: 150px;
-  }
-
-  .wrapper-news .block_news_bottom .news_content .news_img {
-    width: 300px;
-    height: 150px;
-    margin-right: 250px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .logoimg {
-    width: 80px;
-    height: 50px;
-    margin-left: 50px;
-  }
-
-  .nav-menu .menu {
-    display: none;
-  }
-
-  .burger {
-    width: 40px;
-    height: 40px;
-    display: block;
-  }
-
-  .container {
-    width: 767px;
-    margin: 0 auto;
-  }
-  .container .promo_ads {
-    width: 700px;
-    margin: 0 auto;
-    margin-top: 50px;
-  }
-  .container .promo_ads .content h2 {
-    font-size: 40px;
-  }
-  .container .promo_ads .content a {
-    font-size: 40px;
-  }
-
   .game_block .content_game .game_link .game_img {
-    width: 100px;
-    height: 150px;
-  }
-
-  .wrapper-news .block_news_top .news_content .news_img {
-    width: 150px;
-    height: 100px;
-  }
-
-  .wrapper-news .block_news_bottom .news_content .news_img {
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 250px;
   }
 }
