@@ -110,6 +110,7 @@ header .wrapper {
 .order_game {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
 }
 .order_game h3 {
   font-size: 40px;
@@ -120,8 +121,13 @@ header .wrapper {
   border: none;
   border-bottom: 1px solid #e12178;
   width: 140px;
-  font-size: 12px;
+  font-size: 17px;
   margin-top: 20px;
+  font-weight: 700;
+  margin: 40px 10px;
+}
+.order_game option {
+  font-weight: 700;
 }
 
 .game_block {
