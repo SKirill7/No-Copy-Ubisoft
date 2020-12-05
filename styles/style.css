@@ -50,7 +50,7 @@ header .nav-menu a:hover {
   border: 1px solid white;
   background-color: white;
   color: black;
-  padding: 20px 20px;
+  padding: 15px;
 }
 /* header .burger_icon .burger {
   width: 40px;
@@ -76,18 +76,21 @@ header .wrapper {
 }
 .container .promo_ads {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: flex-end;
   width: 1460px;
-  height: 350px;
+  height: 500px;
   margin-top: 50px;
   color: white;
   background: url('../img/qboGCTGViX8.jpg')0 -200px/cover no-repeat;
 }
 .container .promo_ads .content {
   font-size: 52px;
-  width: 40%;
-  margin-bottom: 20px;
+  width: 100%;
+  margin: 20px;
+}
+.container .promo_ads .content h2 {
+  text-shadow: 5px 5px 5px black;
 }
 .container .promo_ads .content .btn_buy {
   border: 1px solid #e22026;
@@ -136,7 +139,7 @@ header .wrapper {
 .game_block .content_game .platform_icon {
   width: 18px;
   height: 18px;
-  margin-bottom: 50px;
+  margin: 10px 0;
 }
 
 .button_wrapper {
@@ -321,7 +324,6 @@ footer .official_info {
   .game_block .content_game h3 {
     font-size: 14px;
   }
-  
 }
 @media screen and ( max-width: 960px) {
   .container {
@@ -341,6 +343,9 @@ footer .official_info {
   }
   .game_block .content_game h3 {
     font-size: 12px;
+  }
+  .container .order_game .select_filter {
+    margin-top: 18px;
   }
 }
 @media screen and ( max-width: 720px) {
@@ -380,6 +385,15 @@ footer .official_info {
     padding: 10px 25px;
     font-size: 18px;
     margin-top: 0px;
+  }
+  .gb2 {
+    display: none;
+  }
+  .gb3 {
+    display: none;
+  }
+  .gb4 {
+    display: none;
   }
 }
 @media screen and ( max-width: 480px) {
