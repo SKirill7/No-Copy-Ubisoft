@@ -87,7 +87,7 @@ header .wrapper {
 .container .promo_ads .content {
   font-size: 52px;
   width: 100%;
-  margin: 20px;
+  margin: 60px;
 }
 .container .promo_ads .content h2 {
   text-shadow: 5px 5px 5px black;
@@ -295,7 +295,8 @@ footer .official_info {
     margin: 50px auto;
   }
   .container .promo_ads .content {
-    font-size: 40px;
+    font-size: 32px;
+    margin: 200px 30px;
   }
   header .wrapper {
     display: block;
@@ -325,6 +326,7 @@ footer .official_info {
   }
   .container .promo_ads .content {
     font-size: 32px;
+    margin: 250px 30px;
   }
   .game_block .content_game .game_link .game_img {
     width: 175px;
