@@ -82,7 +82,7 @@ header .wrapper {
   height: 500px;
   margin-top: 50px;
   color: white;
-  background: url('../img/qboGCTGViX8.jpg')0 -200px/cover no-repeat;
+  background: url('../img/title_img.jpg')0 -200px/cover no-repeat;
 }
 .container .promo_ads .content {
   font-size: 52px;
@@ -184,11 +184,14 @@ header .wrapper {
 }
 .more_games_lis .title_more-games {
   font-size: 40px;
-  margin: 50px 0;
+  margin: 25px 0;
 }
 
 .container-second_color {
   background-color: #f0f3f4;
+}
+.container-second_color .game_block {
+  padding: 75px 0;
 }
 
 .wrapper-news {
