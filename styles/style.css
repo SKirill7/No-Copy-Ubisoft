@@ -76,9 +76,19 @@ header .wrapper {
   width: 100%;
   color: #fff;
   font-weight: 700;
-  padding: 80px 0 40px 60px;
+  padding: 60px 0 20px 60px;
   background-color: #2a2b2f;
 }
+.title h2 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img_banner {
+  width: 200px;
+  height: 100px;
+  margin: 0 100px 0 0;
+} 
 
 .container {
   width: 1460px;
@@ -97,7 +107,7 @@ header .wrapper {
 .container .promo_ads .content {
   font-size: 52px;
   width: 100%;
-  margin: 60px;
+  margin: 60px 20px;
 }
 .container .promo_ads .content h2 {
   text-shadow: 5px 5px 5px black;
@@ -124,7 +134,7 @@ header .wrapper {
 }
 .order_game h3 {
   font-size: 40px;
-  padding: 20px 0;
+  padding: 44px 0;
 }
 .order_game select {
   color: #e12178;
@@ -336,6 +346,13 @@ footer .official_info {
   .game_block .content_game h3 {
     font-size: 14px;
   }
+  .moregames_title .title h2 {
+    font-size: 32px;
+  }
+  .img_banner {
+    width: 175px;
+    height: 75px;
+    margin: 0 50px 0 0;
 }
 @media screen and ( max-width: 1024px) {
   .container {
@@ -356,6 +373,11 @@ footer .official_info {
   }
   .game_block .content_game h3 {
     font-size: 14px;
+  }
+  .title h2 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
 }
 @media screen and ( max-width: 960px) {
@@ -380,6 +402,13 @@ footer .official_info {
   .container .order_game .select_filter {
     margin-top: 18px;
   }
+  .moregames_title .title h2 {
+    font-size: 24px;
+  }
+  .img_banner {
+    width: 175px;
+    height: 75px;
+    margin: 0 10px 0 0;
 }
 @media screen and ( max-width: 720px) {
   .container {
