@@ -100,9 +100,10 @@ header .wrapper {
   align-items: flex-end;
   width: 1460px;
   height: 500px;
+  background-color: black;
   margin-top: 50px;
   color: white;
-  background: url('../img/title_img.jpg')0 -200px/cover no-repeat;
+  /* background: url('../img/title_img.jpg')0 -200px/cover no-repeat; */
 }
 .container .promo_ads .content {
   font-size: 52px;
@@ -469,7 +470,7 @@ footer .official_info {
     margin: 10px 0  ;
   }
   .container .order_game .select_filter {
-    margin-top: 50px;
+    margin-top: 45px;
   }
 }
 @media screen and ( max-width: 560px) {
