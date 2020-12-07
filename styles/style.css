@@ -509,6 +509,9 @@ footer .official_info {
     width: 320px;
     margin: 0 auto;
   }
+  .moregames_title .title h2 {
+    font-size: 12px;
+  }
   .wrapper-news .block_news_top .news_content .news_img {
     width: 200px;
     height: 100px;
@@ -522,5 +525,19 @@ footer .official_info {
   }
   .news-wrapper h3 {
     font-size: 18px;
+  }
+  .order_game {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .order_game h3 {
+    font-size:32px;
+  }
+  .order_game select {
+    font-size: 14px;
+  }
+  footer .footer_nav-menu .footer_menu {
+    padding: 15px 0 ;
   }
 }
