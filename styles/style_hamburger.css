@@ -48,12 +48,12 @@ label{
     top: 28px;
 }
 
-.main-menu{
+.main-menu {
     display: block;
     position: absolute;
-    width: 100%;
-    bottom: -10px;
-    left: 0;
+    width: 320px;
+    bottom: -6px;
+    left: -130px;
     transform: translateY(100%);
     max-height: 0;
     font-size: 0;
@@ -89,3 +89,78 @@ label{
 #check-menu:checked ~ .fourth{
     display: none;
 }/ */
+@media screen and ( max-width: 1024px) {
+    .main-menu {
+        display: block;
+        position: absolute;
+        width: 1024px;
+        bottom: -6px;
+        left: -130px;
+        transform: translateY(100%);
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transition: .5s all;
+        background-color: black;
+    }
+}
+@media screen and ( max-width: 768px) { 
+.main-menu {
+    display: block;
+    position: absolute;
+    width: 768px;
+    bottom: -6px;
+    left: -130px;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .5s all;
+    background-color: black;
+    }
+}
+@media screen and ( max-width: 425px) {
+    .main-menu {
+        display: block;
+        position: absolute;
+        width: 425px;
+        bottom: -6px;
+        left: -130px;
+        transform: translateY(100%);
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transition: .5s all;
+        background-color: black;
+    }
+}
+@media screen and ( max-width: 375px) {
+    .main-menu {
+        display: block;
+        position: absolute;
+        width: 375px;
+        bottom: -6px;
+        left: -130px;
+        transform: translateY(100%);
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transition: .5s all;
+        background-color: black;
+    }
+}
+@media screen and ( max-width: 320px) {
+    .main-menu {
+        display: block;
+        position: absolute;
+        width: 320px;
+        bottom: -6px;
+        left: -130px;
+        transform: translateY(100%);
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transition: .5s all;
+        background-color: black;
+    }
+}
