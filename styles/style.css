@@ -78,7 +78,7 @@ header .wrapper {
   font-weight: 700;
   padding: 60px 0 20px 60px;
   background-color: #2a2b2f;
-  display: none;
+  /* display: none; */
 }
 .title h2 { 
     display: flex;
@@ -509,11 +509,13 @@ footer .official_info {
     height: 25px;
   }
   footer .footer_nav-menu .footer_menu {
-    font-size: 10px;
     flex-direction: column;
+    font-size: 20px;
+    padding: 15px 0;
+    }
   }
   footer .official_info {
-    margin-top: 2px;
+    margin-top: 20px;
   }
 }
 @media screen and ( max-width: 480px) {
@@ -524,6 +526,12 @@ footer .official_info {
   .game_block .content_game .game_link .game_img {
     width: 100px;
     height: 150px;
+  }
+  .container_2 {
+    padding-top: 0;
+  }
+  .order_game h3 {
+    padding: 0;
   }
   .gb3_1 {
     display: none;
