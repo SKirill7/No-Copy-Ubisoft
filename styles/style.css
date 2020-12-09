@@ -71,7 +71,7 @@ header .wrapper {
   display: none;
 }
 
-.moregames_title .title h2 {
+.moregames_title {
   font-size: 40px;
   width: 100%;
   color: #fff;
@@ -95,7 +95,7 @@ header .wrapper {
   width: 1460px;
   margin: 0 auto;
 }
-.container .promo_ads {
+/* .container .promo_ads {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -103,7 +103,7 @@ header .wrapper {
   height: 500px;
   background-color: black;
   margin-top: 50px;
-  /* padding-top: 100px; */
+  padding-top: 100px;
   color: white;
   background: url('../img/title_img.jpg')0 -200px/cover no-repeat;
 }
@@ -114,6 +114,8 @@ header .wrapper {
   font-size: 52px;
   width: 100%;
   margin: 60px 20px;
+}
+.content h2 {
 }
 .container .promo_ads .content h2 {
   text-shadow: 5px 5px 5px black;
@@ -131,16 +133,55 @@ header .wrapper {
   border: 1px solid white;
   background-color: white;
   color: #e22026;
+} */
+.title h2 {
+  margin: 0 20px 0 0;
 }
-
+.title_game__info {
+  margin: 0 0 0 20px;
+  line-height: 1.7;
+}
+.stars {
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+}
+.title_img {
+  width: 200px;
+  height: 200px;
+}
+.moregames_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_game {
+  display: block;
+  font-size: 18px;
+  background-color: #e12178;
+  margin: 0 3px;
+  padding: 10px 125px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid #e12178;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.btn_game:hover {
+  border: 1px solid #e22026;
+  background-color: white;
+  transition: 0.5s;
+  color: #e22026;
+}
 .order_game {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 30px;
 }
 .order_game h3 {
   font-size: 40px;
-  padding: 44px 0;
+  /* padding: 30px 0; */
 }
 .order_game select {
   color: #e12178;
@@ -396,12 +437,8 @@ footer .official_info {
     width: 720px;
     margin: 0 auto;
   }
-  .container .promo_ads {
-    width: 700px;
-    margin: 50px auto;
-  }
-  .container .promo_ads .content {
-    font-size: 20px;
+  .moregames_title .title h2 {
+    padding: 0 0 0 0;
   }
   .game_block .content_game .game_link .game_img {
     width: 125px;
@@ -416,11 +453,20 @@ footer .official_info {
   .moregames_title .title h2 {
     font-size: 24px;
   }
-  .img_banner {
-    width: 175px;
-    height: 75px;
-    margin: 0 10px 0 0;
-}
+  .title_img {
+    width: 180px;
+    height: 180px;
+  }
+  .title_game__info h4 {
+    font-size: 32px;
+  }
+  .btn_game {
+    display: block;
+    font-size: 14px;
+    background-color: #e12178;
+    margin: 0 3px;
+    padding: 10px 100px;
+  }
 @media screen and ( max-width: 720px) {
   .container {
     width: 480px;
@@ -470,7 +516,7 @@ footer .official_info {
     display: none;
   }
   .moregames_title .title h2 {
-    padding: 50px 0 0 0;
+    padding: 0;
   }
   .img_banner {
     width: 100px;
@@ -483,8 +529,25 @@ footer .official_info {
   .container .order_game .select_filter {
     margin-top: 45px;
   }
+  /* .title_game__info h2 {
+    font-size: 32px;
+  } */
+  .title_img {
+    width: 150px;
+    height: 150px;
+  }
+  .title_game__info h4 {
+    font-size: 24px;
+  }
+  .btn_game {
+    display: block;
+    font-size: 14px;
+    background-color: #e12178;
+    margin: 0 3px;
+    padding: 10px 80px;
+  }
 }
-@media screen and ( max-width: 560px) {
+@media screen and ( max-width: 580px) {
   .container {
     width: 480px;
     margin: 0 auto;
@@ -504,9 +567,8 @@ footer .official_info {
   .gb4 {
     display: none;
   }
-  .img_banner {
-    width: 75px;
-    height: 25px;
+  .title_game__info h2 {
+    font-size: 32px;
   }
   footer .footer_nav-menu .footer_menu {
     flex-direction: column;
@@ -530,16 +592,40 @@ footer .official_info {
   .container_2 {
     padding-top: 0;
   }
+  .title_game__info h4 {
+    font-size: 14px;
+  }
+  .title_game__info span {
+    font-size: 14px;
+  }
   .order_game h3 {
     padding: 0;
+  }
+  .title_game__info h4 {
+    font-size: 12px;
+  }
+  .btn_game {
+    display: block;
+    font-size: 14px;
+    background-color: #e12178;
+    margin: 0 3px;
+    padding: 10px 2px;
   }
   .gb3_1 {
     display: none;
   }
   .container .order_game .select_filter {
-    margin: 10px 0 0 5px;  
+    margin: 10px 0 0 5px; 
+    display: flex;
+    flex-direction: column; 
+  }
+  .moregames_title {
+    padding: 60px 0 20px 0px;
   }
   .moregames_title .title h2 {
+    font-size: 14px;
+  }
+  .btn_game {
     font-size: 12px;
   }
   .container-second_color .game_block {
