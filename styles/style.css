@@ -34,7 +34,7 @@ header .login_link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 70px;
   text-transform: uppercase;
   font-weight: 700;
   opacity: .5;
@@ -574,7 +574,7 @@ footer .official_info {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 80px;
+    margin-right: 70px;
     text-transform: uppercase;
     font-weight: 700;
     opacity: .5;
