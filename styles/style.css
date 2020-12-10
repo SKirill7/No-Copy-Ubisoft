@@ -475,7 +475,7 @@ footer .official_info {
     display: none;
   }
   .container .order_game .select_filter {
-    margin: 45px 0 0 50px;
+    margin: 0 0 0 50px;
   }
   }
   .wrapper-news .block_news_top .news_content .news_img {
@@ -525,9 +525,9 @@ footer .official_info {
   .order_game select {
     margin: 10px 0  ;
   }
-  .container .order_game .select_filter {
+  /* .container .order_game .select_filter {
     margin-top: 45px;
-  }
+  } */
   /* .title_game__info h2 {
     font-size: 32px;
   } */
