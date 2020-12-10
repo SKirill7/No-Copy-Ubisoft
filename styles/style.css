@@ -139,7 +139,6 @@ header .wrapper {
 }
 .title_game__info {
   margin: 0 0 0 20px;
-  line-height: 1.7;
 }
 .stars {
   width: 20px;
@@ -589,6 +588,11 @@ footer .official_info {
     width: 100px;
     height: 150px;
   }
+  header .logoimg {
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
+  }
   .container_2 {
     padding-top: 0;
   }
@@ -609,7 +613,7 @@ footer .official_info {
     font-size: 14px;
     background-color: #e12178;
     margin: 0 3px;
-    padding: 10px 2px;
+    padding: 10px 50px;
   }
   .gb3_1 {
     display: none;
@@ -621,9 +625,11 @@ footer .official_info {
   }
   .moregames_title {
     padding: 60px 0 20px 0px;
+    flex-direction: column;
+    align-items: center;
   }
   .moregames_title .title h2 {
-    font-size: 14px;
+    font-size: 18px;
   }
   .btn_game {
     font-size: 12px;
@@ -660,6 +666,7 @@ footer .official_info {
   footer .footer_nav-menu .footer_menu {
     padding: 5px 0 ;
     font-size: 20px;
+    text-align:center;
   }
   footer .official_info {
     font-size: 12px;
