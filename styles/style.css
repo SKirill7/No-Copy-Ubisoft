@@ -1,4 +1,4 @@
-* {
+  * {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
@@ -34,7 +34,7 @@ header .login_link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 70px;
+  margin-right: 20px;
   text-transform: uppercase;
   font-weight: 700;
   opacity: .5;
@@ -90,9 +90,9 @@ header .wrapper {
   width: 1460px;
   margin: 0 auto;
 }
-.title h2 {
+.title h3 {
   margin: 0 20px 0 0;
-  font-size: 0.5em;
+  font-size: 1em;
 }
 .title_game__info {
   margin: 0 0 0 20px;
@@ -322,23 +322,11 @@ footer .official_info {
     width: 1280px;
     margin: 0 auto;
   }
-  .container .promo_ads {
-    width: 1200px;
-    margin: 50px auto;
-  }
 }
 @media screen and ( max-width: 1280px) {
   .container {
     width: 1024px;
     margin: 0 auto;
-  }
-  .container .promo_ads {
-    width: 1000px;
-    height: 350px;
-  }
-  .container .promo_ads .content {
-    font-size: 32px;
-    margin: 50px 30px;
   }
   header .wrapper {
     display: block;
@@ -369,22 +357,10 @@ footer .official_info {
     height: 75px;
     margin: 0 50px 0 0;
 }
-.container .promo_ads { 
-  color: white;
-  background: url('../img/title_img.jpg')0 0/cover no-repeat; 
-}
 @media screen and ( max-width: 1024px) {
   .container {
     width: 960px;
     margin: 0 auto;
-  }
-  .container .promo_ads {
-    width: 900px;
-    margin: 50px auto;
-  }
-  .container .promo_ads .content {
-    font-size: 24px;
-    margin: 50px 30px;
   }
   .game_block .content_game .game_link .game_img {
     width: 175px;
@@ -398,6 +374,9 @@ footer .official_info {
     align-items: center;
     justify-content: space-evenly;
   }
+  header .login_link {
+    margin-right: 70px;
+  }
 }
 @media screen and ( max-width: 960px) {
   .container {
@@ -405,7 +384,7 @@ footer .official_info {
     margin: 0 auto;
   }
   .moregames_title .title h2 {
-    padding: 0 0 0 0;
+    padding: 0;
   }
   .game_block .content_game .game_link .game_img {
     width: 125px;
@@ -439,12 +418,8 @@ footer .official_info {
     width: 480px;
     margin: 0 auto;
   }
-  .container .promo_ads {
-    display: none;
-  }
   .container .order_game .select_filter {
     margin: 0 0 0 50px;
-  }
   }
   .wrapper-news .block_news_top .news_content .news_img {
     width: 400px;
@@ -465,9 +440,6 @@ footer .official_info {
     flex-direction: column;
     align-items: flex-start;
   }
-  /* .wrapper-news {
-    margin: 80px 0;
-  } */
   .more_games {
     padding: 10px 25px;
     font-size: 18px;
@@ -493,12 +465,6 @@ footer .official_info {
   .order_game select {
     margin: 10px 0  ;
   }
-  /* .container .order_game .select_filter {
-    margin-top: 45px;
-  } */
-  /* .title_game__info h2 {
-    font-size: 32px;
-  } */
   .title_img {
     width: 150px;
     height: 150px;
@@ -645,6 +611,7 @@ footer .official_info {
   }
   .order_game h3 {
     font-size:32px;
+    width: 75%; 
   }
   .order_game select {
     font-size: 14px;
