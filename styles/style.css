@@ -570,6 +570,15 @@ footer .official_info {
     height: 50px;
     margin-left: 10px;
   }
+  header .login_link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: .5;
+}
   .container_2 {
     padding-top: 0;
   }
