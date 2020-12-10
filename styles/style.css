@@ -557,6 +557,15 @@ footer .official_info {
     justify-content: space-around;
     align-items: center;
   }
+  .moregames_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .btn_game {
+    padding: 10px 70px;
+  }
   .gb2 {
     display: none;
   }
