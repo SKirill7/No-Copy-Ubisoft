@@ -291,6 +291,7 @@ footer .footer_nav-menu .footer_menu {
 }
 footer .footer_nav-menu .footer_menu a {
   margin: 0 30px;
+  padding: 5px
 }
 footer .footer_nav-menu .footer_menu a:hover {
   text-decoration: underline;
@@ -508,7 +509,7 @@ footer .official_info {
     }
   }
   footer .official_info {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 @media screen and ( max-width: 480px) {
