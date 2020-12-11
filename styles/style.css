@@ -580,12 +580,14 @@ footer .official_info {
     padding: 0px 0 50px 0;
   }
   .wrapper-news .block_news_top .news_content .news_img {
-    width: 200px;
+    width: 100%;
     height: 100px;
+    margin: 0 auto;
   }
   .wrapper-news .block_news_bottom .news_content .news_img {
-    width: 200px;
+    width: 100%;
     height: 100px;
+    margin: 0 auto;
   }
   .news-wrapper {
     font-size: 12px;
