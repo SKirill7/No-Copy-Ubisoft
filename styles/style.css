@@ -34,7 +34,7 @@ header .login_link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 75px;
+  margin-right: 20px;
   text-transform: uppercase;
   font-weight: 700;
   opacity: .5;
@@ -463,6 +463,7 @@ footer .official_info {
   .wrapper-news .block_news_top .news_content .news_img {
     width: 400px;
     height: 175px;
+    border-radius: 10px 10px 0 0px;
   }
   .wrapper-news .block_news_bottom .news_content .news_img {
     width: 400px;
@@ -472,6 +473,7 @@ footer .official_info {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 400px;
   }
   .wrapper-news .block_news_bottom {
     display: flex;
@@ -480,9 +482,9 @@ footer .official_info {
     align-items: flex-start;
   }
   .more_games {
-    padding: 10px 25px;
-    font-size: 18px;
-    margin-top: 0px;
+    padding: 3% 2%;
+    font-size: 14px;
+    margin-top: 5%;
   }
   .gb2 {
     display: none;
@@ -638,15 +640,19 @@ footer .official_info {
   .container-second_color .game_block {
     padding: 0px 0 50px 0;
   }
+  .wrapper-news .block_news_top {
+    width: 252px;
+  }
+  .wrapper-news .block_news_top .news_img {
+    width: 400px;
+  }
   .wrapper-news .block_news_top .news_content .news_img {
     width: 100%;
     height: 100px;
     margin: 0 auto;
   }
-  .wrapper-news .block_news_bottom .news_content .news_img {
-    width: 100%;
-    height: 100px;
-    margin: 0 auto;
+  .block_news_top div {
+    width: 250px;
   }
   .news-wrapper {
     font-size: 12px;
