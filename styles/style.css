@@ -461,7 +461,7 @@ footer .official_info {
     margin: 0 0 0 50px;
   }
   .wrapper-news .block_news_top .news_content .news_img {
-    width: 250px;
+    width: 100%;
     height: 175px;
     border-radius: 10px 10px 0 0px;
   }
@@ -486,10 +486,7 @@ footer .official_info {
     font-size: 14px;
     margin-top: 5%;
   }
-  .gb2 {
-    display: none;
-  }
-  .gb3 {
+  .gb3_1 {
     display: none;
   }
   .gb4 {
@@ -545,12 +542,6 @@ footer .official_info {
   }
   .btn_game {
     padding: 10px 70px;
-  }
-  .gb2 {
-    display: none;
-  }
-  .gb3 {
-    display: none;
   }
   .gb4 {
     display: none;
@@ -618,9 +609,12 @@ footer .official_info {
     margin: 0 auto;
     padding: 10px 50px;
   }
-  .gb3_1 {
+  /* .gb3_1 {
     display: none;
-  }
+  } */
+  .game_block {
+    margin-top: 30px;
+   }
   .container .order_game .select_filter {
     margin: 10px 0 0 5px; 
     display: flex;

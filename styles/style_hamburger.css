@@ -155,7 +155,7 @@ label{
         position: absolute;
         width: 425px;
         bottom: -6px;
-        left: 40px;
+        left: -170px;
         transform: translateY(100%);
         max-height: 0;
         font-size: 0;
@@ -167,7 +167,7 @@ label{
         display: block;
         position: absolute;
         top: 0;
-        left: 270px;
+        left: 145px;
         width: 40%;
         height: 100%;
         cursor: pointer;
@@ -181,7 +181,7 @@ label{
         position: absolute;
         width: 375px;
         bottom: -6px;
-        left: -90px;
+        left: -170px;
         transform: translateY(100%);
         max-height: 0;
         font-size: 0;
@@ -193,7 +193,7 @@ label{
         display: block;
         position: absolute;
         top: 0;
-        left: 230px;
+        left: 105px;
         width: 40%;
         height: 100%;
         cursor: pointer;
@@ -206,7 +206,7 @@ label{
         position: absolute;
         width: 320px;
         bottom: -6px;
-        left: -90px;
+        left: -170px;
         transform: translateY(100%);
         max-height: 0;
         font-size: 0;
@@ -218,7 +218,7 @@ label{
         display: block;
         position: absolute;
         top: 0;
-        left: 126px;
+        left: 60px;
         width: 40%;
         height: 100%;
         cursor: pointer;
