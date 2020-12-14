@@ -282,6 +282,10 @@ header .wrapper {
   font-weight: 700;
   font-size: 21px;
 }
+.link_news a:hover {
+  color: rgb(30, 37, 129);
+  transition: .5s;
+}
 /* .wrapper-news .block_news_bottom {
   display: flex;
   justify-content: space-around;
