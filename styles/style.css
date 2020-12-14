@@ -34,7 +34,7 @@ header .login_link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 75px;
   text-transform: uppercase;
   font-weight: 700;
   opacity: .5;
@@ -279,6 +279,7 @@ header .wrapper {
 }
 .link_news a {
   color: rgb( 43, 52, 182);
+  transition: .5s;
   font-weight: 700;
   font-size: 21px;
 }
@@ -440,7 +441,18 @@ footer .official_info {
     margin: 0 3px;
     padding: 10px 100px;
   }
-@media screen and ( max-width: 720px) {
+@media screen and ( max-width: 768px) {
+  header .logoimg {
+    width: 160px;
+    height: 100px;
+    margin-left: 25px;
+  }
+  .block-login {
+    display: none;
+  }
+  .moregames_title {
+    padding: 100px 0 10px 60px;
+}
   .container {
     width: 480px;
     margin: 0 auto;
@@ -508,6 +520,11 @@ footer .official_info {
   }
 }
 @media screen and ( max-width: 580px) {
+  header .logoimg {
+    width: 160px;
+    height: 100px;
+    margin-left: 25px;
+  }
   .container {
     width: 480px;
     margin: 0 auto;
@@ -550,6 +567,11 @@ footer .official_info {
   }
 }
 @media screen and ( max-width: 480px) {
+  header .logoimg {
+    width: 160px;
+    height: 100px;
+    margin-left: 25px;
+  }
   .container {
     width: 320px;
     margin: 0 auto;
@@ -559,8 +581,8 @@ footer .official_info {
     height: 150px;
   }
   header .logoimg {
-    width: 80px;
-    height: 50px;
+    width: 160px;
+    height: 100px;
     margin-left: 10px;
   }
   header .login_link {
@@ -591,7 +613,7 @@ footer .official_info {
     display: block;
     font-size: 14px;
     background-color: #e12178;
-    margin: 0 3px;
+    margin: 0 auto;
     padding: 10px 50px;
   }
   .gb3_1 {
@@ -603,7 +625,7 @@ footer .official_info {
     flex-direction: column; 
   }
   .moregames_title {
-    padding: 60px 0 20px 0px;
+    padding: 105px 0 20px 0px;
     flex-direction: column;
     align-items: center;
   }

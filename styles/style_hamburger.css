@@ -34,7 +34,7 @@ label{
     position: absolute;
     top: 8px;
     right: -170px;
-    width: 50px;
+    width: 40px;
     height: 2px;
     background-color: #fff;
     transition: .5s all;
@@ -121,7 +121,7 @@ label{
     position: absolute;
     width: 768px;
     bottom: -6px;
-    left: -130px;
+    left: -185px;
     transform: translateY(100%);
     max-height: 0;
     font-size: 0;
@@ -140,6 +140,14 @@ label{
         z-index: 2;
         line-height: 40px;
     }
+    .burger-line {
+        right: 40px;
+    }
+    label {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 480px;
 }
 @media screen and ( max-width: 425px) {
     .main-menu {
@@ -147,7 +155,7 @@ label{
         position: absolute;
         width: 425px;
         bottom: -6px;
-        left: -90px;
+        left: 40px;
         transform: translateY(100%);
         max-height: 0;
         font-size: 0;
@@ -210,12 +218,11 @@ label{
         display: block;
         position: absolute;
         top: 0;
-        left: 170px;
-        width: 100%;
+        left: 126px;
+        width: 40%;
         height: 100%;
         cursor: pointer;
         z-index: 2;
         line-height: 40px;
     }
-}
 }
