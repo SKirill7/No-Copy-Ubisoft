@@ -294,27 +294,6 @@ header .wrapper {
   color: rgb(30, 37, 129);
   transition: .5s;
 }
-/* .wrapper-news .block_news_bottom {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  line-height: 30px;
-  padding: 50px 0;
-}
-.wrapper-news .block_news_bottom .news-wrapper h3 {
-  font-size: 30px;
-}
-.wrapper-news .block_news_bottom .news-wrapper .more_info {
-  color: #e22026;
-}
-.wrapper-news .block_news_bottom .news_content {
-  flex-direction: column;
-}
-.wrapper-news .block_news_bottom .news_content .news_img {
-  display: block;
-  width: 500px;
-  height: 250px;
-} */
 
 footer {
   background-color: #1d1e21;
@@ -413,8 +392,8 @@ footer .official_info {
     padding: 0;
   }
   .game_block .content_game .game_link .game_img {
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
   }
   .game_block .content_game h3 {
     font-size: 12px;
@@ -467,6 +446,10 @@ footer .official_info {
   .game_block {
     margin-top: 20px;
   }
+  .game_block .content_game .game_link .game_img {
+    width: 200px;
+    height: 200px;
+}
   .container .order_game .select_filter {
     margin: 0 0 0 50px;
   }
