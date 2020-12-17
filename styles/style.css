@@ -120,7 +120,7 @@ header .wrapper {
 }
 .btn_game {
   position: relative;
-  top: 4.5px;
+  top: 10px;
   left: -5px;
   display: block;
   font-size: 0.5em;
@@ -505,6 +505,8 @@ footer .official_info {
   }
   .btn_game {
     display: block;
+    position: relative;
+    top: 15px;
     font-size: 14px;
     background-color: #e12178;
     margin: 0 3px;
